@@ -1,5 +1,6 @@
 ---
 import Search from "./Search.astro";
+import DepartmentCard from "../user-components/DepartmentCard.astro";
 const { data } = Astro.locals.starlightRoute.entry;
 const { title = data.title, tagline } = data.hero || {};
 const { sidebar } = Astro.locals.starlightRoute;
@@ -33,25 +34,27 @@ const is404 = Astro.locals.starlightRoute?.id === "404";
           </div>
         </div>
 
-        <div class="flex justify-center items-center flex-wrap gap-4">
-          <p class="text-base font-normal">
-            {Astro.locals.t("hero.popular", "Popular")}:
-          </p>
-          <div class="flex gap-4 badges px-3 py-2.5 rounded-xl flex-wrap justify-center">
-            {sidebar.map((item: any) => {
-              const href = getFirstHref(item);
-              return (
-                <div class="badge rounded-lg px-2 py-1.5 group transition">
-                  <a
-                    class="cursor-pointer text-text no-underline group-hover:text-black dark:group-hover:text-white transition-colors"
-                    href={href}
-                  >
-                    {item.label}
-                  </a>
-                </div>
-              );
-            })}
-          </div>
+        <div class="departments-grid">
+          <DepartmentCard 
+            title="IT" 
+            description="Voir la documentation de l'IT"
+            tests={["Test 1", "Test 2", "Test 3", "Test Final"]}
+            color="purple"
+          />
+          
+          <DepartmentCard 
+            title="Mécanique" 
+            description="Explorez notre section mécanique"
+            tests={["Test 1", "Test 2", "Test 3", "Test Final"]}
+            color="blue"
+          />
+          
+          <DepartmentCard 
+            title="Électrique" 
+            description="Découvrez nos solutions électriques"
+            tests={["Test 1", "Test 2", "Test 3", "Test Final"]}
+            color="amber"
+          />
         </div>
       </div>
     )
@@ -88,7 +91,19 @@ const is404 = Astro.locals.starlightRoute?.id === "404";
       background: color-mix(in srgb, var(--sl-color-white) 15%, transparent);
     }
 
+    .departments-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      width: 90%;
+      margin: 0 auto;
+    }
+
     @media (max-width: 940px) {
+      .departments-grid {
+        grid-template-columns: 1fr;
+        width: 100%;
+      }
       h1 {
         font-size: 3.5rem !important;
         line-height: 3.5rem !important;
@@ -115,7 +130,7 @@ const is404 = Astro.locals.starlightRoute?.id === "404";
   if (iconElements) {
     const iconPath = iconElements.getAttribute("data-icon-path");
 
-    const img = document.createElement("img");
+    const img = document.createElement("img"); 
     img.src = `/${iconPath}` || "";
     img.alt = "icon";
     img.className =

@@ -4,8 +4,8 @@ description: Get started building your docs site with DocKit.
 template: splash
 hero:
   title: |
-    The <span data-icon-path='hero-icon.svg'></span> Winners
-    <span class="light-text">Documentatio</span>
+    The <span data-icon-path='bras-robotique.png'></span> Winners
+    <span class="light-text">Documentation</span>
   tagline: Discover tips, resources, and guidance to maximize experience with DocKit.
 ---
 
@@ -65,92 +65,6 @@ import HeroTabsItem from "~/components/HeroTabsItem.astro";
     />
   </HeroTabs>
 </Section>
-
-import ListCard from "~/components/user-components/ListCard.astro";
-import LinkButton from "~/components/LinkButton.astro";
-
-<Section title="Feature topics for <span class='light-text'>our documentation</span>" description="Explore our featured topics and get an idea of our capabilities.">
-
-<Grid columns={3}>
-<ListCard title="UI Components" imageIcon="/src/assets/element.svg" number="15">
-- [Buttons & Links](/contents/components/using-components/)
-- [Navigation Menus](/contents/components/using-components/)
-- [Cards & Panels](/contents/components/using-components/)
-- [Tabs & Accordions](/contents/components/using-components/)
-- [Forms & Inputs](/contents/components/using-components/)
-- [Tables & Lists](/contents/components/using-components/)
-
-<LinkButton href="/contents/components/using-components/" variant="text" className="mt-6 mb-8 ml-4">View all components</LinkButton>
-</ListCard>
-
-<ListCard title="Content Writing" imageIcon="/src/assets/content.svg" number="18">
-- Markdown Basics
-- MDX Components
-- Code Examples
-- API Documentation
-- Tutorial Writing
-- Best Practices
-
-<LinkButton href="/contents/editing/add-new-doc/" variant="text" className="mt-6 mb-8 ml-4">View writing guide</LinkButton>
-</ListCard>
-
-<ListCard title="Page Layouts" imageIcon="/src/assets/layouts.svg" number="8">
-- Homepage Templates
-- Documentation Pages
-- API Reference Layout
-- Tutorial Structure
-- Landing Pages
-- Error Pages
-
-<LinkButton href="/getting-started/introduction/overview/" variant="text" className="mt-6 mb-8 ml-4">View layouts</LinkButton>
-</ListCard>
-</Grid>
-
-<Grid columns={3}>
-
-<ListCard title="Code Syntax" imageIcon="/src/assets/code-block.svg" number="10" image="/src/assets/code-image.png">
-
-- Syntax Highlighting
-- Line Numbers
-- Copy Button
-- Language Labels
-- Diff Highlighting
-- File Names
-
-<LinkButton
-  href="/getting-started/introduction/overview/"
-  variant="text"
-  className="mt-6 mb-8 ml-4"
->
-  View code guide
-</LinkButton>
-
-</ListCard>
-
-<ListCard title="Version History" imageIcon="/src/assets/changelogs.svg" number="25">
-
-- Release Notes
-- Feature Updates
-- Bug Fixes
-- Breaking Changes
-- Migration Guides
-- Deprecated Features
-
-<LinkButton
-  href="/getting-started/introduction/overview/"
-  variant="text"
-  className="mt-6 mb-8 ml-4"
->
-  View changelog
-</LinkButton>
-
-</ListCard>
-
-</Grid>
- 
-</Section>
-
-
 
 import ThemeDemo from "~/components/ThemeDemo.astro";
 

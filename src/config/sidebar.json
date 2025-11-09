@@ -1,22 +1,22 @@
 {
   "main": [
     {
-      "label": "Getting Started",
+      "label": "IT",
       "translations": {
-        "de": "Erste Schritte"
+        "de": "IT"
       },
       "items": [
         {
-          "label": "[seti:vite] Introduction",
+          "label": "[seti:vite] Preselection Test",
           "translations": {
-            "de": "[seti:vite] Introductie"
+            "de": "[seti:vite] Preselection Test"
           },
           "autogenerate": { "directory": "getting-started/introduction" }
         },
         {
-          "label": "[setting] Global Settings",
+          "label": "[setting] Test Final",
           "translations": {
-            "de": "[setting] Globale instellingen"
+            "de": "[setting] Test Final"
           },
           "autogenerate": { "directory": "getting-started/global-settings" }
         },
@@ -30,31 +30,31 @@
       ]
     },
     {
-      "label": "Content",
+      "label": "Electronic",
       "translations": {
-        "de": "Inhoud"
+        "de": "Electronic"
       },
       "items": [
         {
-          "label": "[document] Components and Block",
+          "label": "[document] Preselection Test",
           "translations": {
-            "de": "[document] Componenten en blokken"
+            "de": "[document] Preselection Test"
           },
           "autogenerate": { "directory": "contents/components" }
         },
         {
-          "label": "[pencil] Editing Content",
+          "label": "[pencil] Test Final",
           "translations": {
-            "de": "[pencil] Content bewerken"
+            "de": "[pencil] Test Final"
           },
           "autogenerate": { "directory": "contents/editing" }
         }
       ]
     },
     {
-      "label": "Reference",
+      "label": "Mechanic",
       "translations": {
-        "de": "Referentie"
+        "de": "Mechanic"
       },
       "autogenerate": { "directory": "reference" }
     },
