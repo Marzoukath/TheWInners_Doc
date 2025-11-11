@@ -23,4 +23,4 @@ yarn dev
 
 Your site will be available at `http://localhost:4321`
 
-### Step 2: Configure Your Site
+### Step 2: Configure Your Site 
