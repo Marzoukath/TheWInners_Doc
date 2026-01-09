@@ -9,90 +9,94 @@
       "url": "/getting-started/introduction/overview/"
     },
     {
-      "name": "Reference",
+      "name": "About",
+      "url": "/about/introduction/"
+    },
+    {
+      "name": "Media",
       "url": "",
       "hasChildren": true,
       "children": [
         {
-          "name": "Configuration",
-          "url": "/reference/configuration/"
+          "name": "Photos",
+          "url": "/media/photos/"
         },
         {
-          "name": "Plugins Reference",
-          "url": "/reference/plugin/"
+          "name": "Videos",
+          "url": "/media/videos/"
         }
       ]
     }
   ],
   "footer": {
     "community": {
-      "title": "Join Our Community",
+      "title": "Rejoignez notre communauté TRC",
       "links": [
         {
-          "name": "GitHub Discussions",
-          "url": "https://github.com/themefisher/dockit/discussions"
+          "name": "GitHub du projet",
+          "url": "https://github.com/thewinners/trc2025"
         },
         {
-          "name": "Discord Community",
+          "name": "Discord EPAC",
           "url": "/"
         },
         {
-          "name": "Twitter Updates",
+          "name": "Twitter TRC 2025",
           "url": "/"
         },
         {
-          "name": "Contributing Guide",
+          "name": "Contribuez au projet",
           "url": "/"
         }
       ]
     },
     "help_links": {
-      "title": "Helpful Links",
+      "title": "Ressources TRC",
       "links": [
         {
-          "name": "Getting Started",
-          "url": "/"
+          "name": "Démarrage rapide",
+          "url": "/getting-started/"
         },
         {
-          "name": "Privacy Policy",
-          "url": "/privacy-policy"
+          "name": "Spécifications robot",
+          "url": "/robot-specs/"
         },
         {
-          "name": "Terms and Conditions",
-          "url": "/terms-conditions"
+          "name": "Résultats & démos",
+          "url": "/results/"
         },
         {
-          "name": "About Us",
-          "url": "/about"
+          "name": "Guide d'équipe",
+          "url": "/team-guide/"
         },
         {
-          "name": "Troubleshooting",
-          "url": "/"
+          "name": "FAQ TRC",
+          "url": "/faq/"
         }
       ]
     },
     "company": {
-      "title": "Resources",
+      "title": "À propos",
       "links": [
         {
-          "name": "Documentation Hub",
+          "name": "Documentation complète",
           "url": "/docs/"
         },
         {
-          "name": "Theme Gallery",
-          "url": "/"
+          "name": "Galerie photos",
+          "url": "/media/photos/"
         },
         {
-          "name": "Best Practices",
-          "url": "/"
+          "name": "Meilleures pratiques",
+          "url": "/best-practices/"
         },
         {
-          "name": "Performance Tips",
-          "url": "/"
+          "name": "Performance robot",
+          "url": "/performance/"
         },
         {
-          "name": "Migration Guide",
-          "url": "/"
+          "name": "EPAC officiel",
+          "url": "https://epac.edu.bj/"
         }
       ]
     }

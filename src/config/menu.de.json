@@ -5,96 +5,99 @@
       "url": "/"
     },
     {
+      "name": "About",
+      "url": "/about/introduction/"
+    },
+    {
       "name": "Documentatie",
       "url": "/de/getting-started/introduction/overview/"
     },
     {
-      "name": "Referentie",
+      "name": "Media",
       "url": "",
       "hasChildren": true,
       "children": [
         {
-          "name": "Configuratie",
-          "url": "/de/reference/configuration/"
+          "name": "Photos",
+          "url": "/media/photos/"
         },
         {
-          "name": "Plugins referentie",
-          "url": "/de/reference/plugin/"
+          "name": "Videos",
+          "url": "/media/videos/"
         }
       ]
     }
   ],
-  "footer": {
+ "footer": {
     "community": {
-      "title": "Word lid van onze community",
+      "title": "Rejoignez notre communauté TRC",
       "links": [
         {
-          "name": "GitHub discussies",
-          "url": "https://github.com/themefisher/dockit/discussions"
+          "name": "GitHub du projet",
+          "url": "https://github.com/thewinners/trc2025"
         },
         {
-          "name": "Discord community",
+          "name": "Discord EPAC",
           "url": "/"
         },
         {
-          "name": "Twitter updates",
+          "name": "Twitter TRC 2025",
           "url": "/"
         },
         {
-          "name": "Bijdragen gids",
+          "name": "Contribuez au projet",
           "url": "/"
         }
       ]
     },
     "help_links": {
-      "title": "Handige links",
+      "title": "Ressources TRC",
       "links": [
         {
-          "name": "Aan de slag",
-          "url": "/"
+          "name": "Démarrage rapide",
+          "url": "/getting-started/"
         },
         {
-          "name": "API referentie",
-          "url": "/"
+          "name": "Spécifications robot",
+          "url": "/robot-specs/"
         },
         {
-          "name": "Voorbeelden & demo's",
-          "url": "/"
+          "name": "Résultats & démos",
+          "url": "/results/"
         },
         {
-          "name": "Thema aanpassingen",
-          "url": "/"
+          "name": "Guide d'équipe",
+          "url": "/team-guide/"
         },
         {
-          "name": "Probleemoplossing",
-          "url": "/"
+          "name": "FAQ TRC",
+          "url": "/faq/"
         }
       ]
     },
     "company": {
-      "title": "Bronnen",
+      "title": "À propos",
       "links": [
         {
-          "name": "Documentatie hub",
+          "name": "Documentation complète",
           "url": "/docs/"
         },
         {
-          "name": "Thema galerij",
-          "url": "/"
+          "name": "Galerie photos",
+          "url": "/media/photos/"
         },
         {
-          "name": "Beste praktijken",
-          "url": "/"
+          "name": "Meilleures pratiques",
+          "url": "/best-practices/"
         },
         {
-          "name": "Prestatie tips",
-          "url": "/"
+          "name": "Performance robot",
+          "url": "/performance/"
         },
         {
-          "name": "Migratie gids",
-          "url": "/"
+          "name": "EPAC officiel",
+          "url": "https://epac.edu.bj/"
         }
       ]
     }
   }
-}
