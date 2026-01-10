@@ -74,7 +74,7 @@ head:
 
 | ![Class Diagram](/img/ClassDiagram.jpg) | ![FTDI Circuit](/img/FTDI_with_ATMega.png) | ![LDR Sensor](/img/LDR.jpg) |
 |--------------------------|--------------------------|--------------------------|
-| ![Motor Nema17](/img/Moteur Nema17.jpg) | ![Schematic](/img/SchemConv.png) | ![PCB Design](/img/Test_2_circuit1_pcb1.png) |
+| ![Motor Nema17](/img/MN17.png) | ![Schematic](/img/SchemConv.png) | ![PCB Design](/img/Test_2_circuit1_pcb1.png) |
 
 </div>
 
