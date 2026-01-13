@@ -1,5 +1,4 @@
 ---
-import Search from "./Search.astro";
 import DepartmentCard from "../user-components/DepartmentCard.astro";
 const { data } = Astro.locals.starlightRoute.entry;
 const { title = data.title, tagline } = data.hero || {};
@@ -28,31 +27,40 @@ const is404 = Astro.locals.starlightRoute?.id === "404";
   {
     !is404 && (
       <div class="mt-12 max-w-4xl">
-        <div class="search-container rounded-2xl p-2 mb-6">
-          <div class="search-bar">
-            <Search />
-          </div>
-        </div>
-
         <div class="departments-grid">
           <DepartmentCard 
             title="IT" 
-            description="View IT documentation"
-            tests={["Test 1", "Test 2", "Test 3", "Test Final"]}
+            description="Voir la documentation de l'IT"
+            tests={[
+              { name: "Test 1", href: "/getting-started/introduction/test1" },
+              { name: "Test 2", href: "/getting-started/introduction/test2" },
+              { name: "Test 3", href: "/getting-started/introduction/test3" },
+              { name: "Test Final", href: "/getting-started/global-settings/configuration" }
+            ]}
             color="purple"
           />
           
           <DepartmentCard 
             title="Mécanique" 
-            description="Explore our mechanics section"
-            tests={["Test 1", "Test 2", "Test 3", "Test Final"]}
+            description="Explorez notre section mécanique"
+            tests={[
+              { name: "Test 1", href: "/reference/test-de-preselection/test1" },
+              { name: "Test 2", href: "/reference/test-de-preselection/test2" },
+              { name: "Test 3", href: "/reference/test-de-preselection/test3" },
+              { name: "Test Final", href: "/reference/test-final/mechanic" }
+            ]}
             color="blue"
           />
           
           <DepartmentCard 
             title="Électrique" 
-            description="Discover our electrical solutions"
-            tests={["Test 1", "Test 2", "Test 3", "Test Final"]}
+            description="Découvrez nos solutions électriques"
+            tests={[
+              { name: "Test 1", href: "/contents/components/test1" },
+              { name: "Test 2", href: "/contents/components/test2" },
+              { name: "Test 3", href: "/contents/components/test3" },
+              { name: "Test Final", href: "/contents/editing/add-new-doc" }
+            ]}
             color="amber"
           />
         </div>
@@ -69,13 +77,6 @@ const is404 = Astro.locals.starlightRoute?.id === "404";
       letter-spacing: -4px;
       color: var(--sl-color-white);
     }
-    .search-container {
-      width: 90%;
-      margin: auto;
-      border: 1px solid
-        color-mix(in srgb, var(--sl-color-white) 5%, transparent);
-    }
-
     .badges {
       background-color: color-mix(
         in srgb,
@@ -108,9 +109,6 @@ const is404 = Astro.locals.starlightRoute?.id === "404";
         font-size: 3.5rem !important;
         line-height: 3.5rem !important;
         letter-spacing: -2px;
-      }
-      .search-container {
-        width: 100%;
       }
     }
   }

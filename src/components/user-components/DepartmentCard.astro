@@ -1,8 +1,13 @@
 ---
+interface TestItem {
+  name: string;
+  href: string;
+}
+
 interface Props {
   title: string;
   description: string;
-  tests: string[];
+  tests: TestItem[];
   color: string;
 }
 
@@ -26,7 +31,9 @@ const cardId = `card-${title.toLowerCase().replace(/\s+/g, '-')}`;
   <div class="dropdown-content" id={cardId}>
     <ul class="tests-list">
       {tests.map((test) => (
-        <li>{test}</li>
+        <li>
+          <a href={test.href} class="test-link">{test.name}</a>
+        </li>
       ))}
     </ul>
   </div>
@@ -145,11 +152,10 @@ const cardId = `card-${title.toLowerCase().replace(/\s+/g, '-')}`;
 
   .tests-list li {
     background: color-mix(in srgb, var(--sl-color-white) 3%, transparent);
-    padding: 0.625rem 0.875rem;
+    padding: 0;
     margin-bottom: 0.5rem;
     border-radius: 6px;
     font-size: 0.875rem;
-    color: color-mix(in srgb, var(--sl-color-white) 90%, transparent);
     border-left: 2px solid var(--accent-color);
     transition: all 0.2s ease;
   }
@@ -157,6 +163,18 @@ const cardId = `card-${title.toLowerCase().replace(/\s+/g, '-')}`;
   .tests-list li:hover {
     background: color-mix(in srgb, var(--sl-color-white) 8%, transparent);
     transform: translateX(4px);
+  }
+
+  .test-link {
+    display: block;
+    padding: 0.625rem 0.875rem;
+    color: color-mix(in srgb, var(--sl-color-white) 90%, transparent);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .test-link:hover {
+    color: var(--sl-color-white);
   }
 
   .tests-list li:last-child {
