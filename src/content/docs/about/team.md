@@ -15,9 +15,7 @@ head:
       }
       /* Team member images - all same size */
       .team-member-img img {
-        width: 400px !important;
-        height: 400px !important;
-        object-fit: cover !important;
+       
       }
 ---
 
