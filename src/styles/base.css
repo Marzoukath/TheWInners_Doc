@@ -1,12 +1,12 @@
 html {
   @apply text-base-sm md:text-base;
-  font-size: 20px; /* Augmentation de la taille de base */
+  font-size: 17px; /* Réduction de la taille de base */
 }
 
 body {
   @apply bg-lightmode-body text-base dark:bg-body font-primary font-normal leading-relaxed text-lightmode-text dark:text-text;
-  font-size: 1.1rem; /* Augmentation de 10% de la taille du texte */
-  line-height: 1.7; /* Augmentation de l'espacement des lignes pour la lisibilité */
+  font-size: 1rem; /* Taille de base réduite */
+  line-height: 1.6; /* Espacement des lignes ajusté */
 }
 
 h1,
@@ -22,37 +22,37 @@ h6 {
 h1,
 .h1 {
   @apply text-h1-sm md:text-h1;
-  font-size: 1.20em; /* Augmentation de 15% */
+  font-size: 1.15em; /* Augmentation de 10% (réduit de 15%) */
 }
 
 h2,
 .h2 {
   @apply text-h2-sm md:text-h2;
-  font-size: 1.17em; /* Augmentation de 12% */
+  font-size: 1.12em; /* Augmentation de 8% (réduit de 12%) */
 }
 
 h3,
 .h3 {
   @apply text-h3-sm md:text-h3;
-  font-size: 1.16em; /* Augmentation de 10% */
+  font-size: 1.10em; /* Augmentation de 6% (réduit de 10%) */
 }
 
 h4,
 .h4 {
   @apply text-h4;
-  font-size: 1.10em; /* Augmentation de 8% */
+  font-size: 1.08em; /* Augmentation de 5% (réduit de 8%) */
 }
 
 h5,
 .h5 {
   @apply text-h5;
-  font-size: 1.08em; /* Augmentation de 5% */
+  font-size: 1.06em; /* Augmentation de 3% (réduit de 5%) */
 }
 
 h6,
 .h6 {
   @apply text-h6;
-  font-size: 1.05em; /* Augmentation de 3% */
+  font-size: 1.04em; /* Augmentation de 2% (réduit de 3%) */
 }
 
 b,
