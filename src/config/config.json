@@ -1,8 +1,8 @@
 {
   "site": {
     "title": "DocKit",
-    "logo": "/src/assets/logo-light.svg",
-    "logo_darkmode": "/src/assets/logo-dark.svg",
+    "logo": "/src/assets/logo-ight.svg",
+    "logo_darkmode": "/src/assets/document.png",
     "logo_width": "127",
     "logo_height": "32",
     "logo_text": "DocKit"
@@ -27,6 +27,6 @@
     "translations": {
       "de": "Erste Schritte"
     },
-    "link": "/getting-started/introduction/overview/"
+    "link": "/getting-started/introduction/test1/"
   }
 }

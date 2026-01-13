@@ -84,13 +84,6 @@
             "de": "[setting] Test Final"
           },
           "autogenerate": { "directory": "getting-started/global-settings" }
-        },
-        {
-          "label": "[seti:plan] Navigation",
-          "translations": {
-            "de": "[seti:plan] Navigatie"
-          },
-          "slug": "getting-started/navigation"
         }
       ]
     },
@@ -111,8 +104,7 @@
           "label": "[pencil] Test Final",
           "translations": {
             "de": "[pencil] Test Final"
-          },
-          "autogenerate": { "directory": "contents/editing" }
+          }
         }
       ]
     },
@@ -122,14 +114,6 @@
         "de": "Mechanic"
       },
       "autogenerate": { "directory": "reference" }
-    },
-
-    {
-      "label": "Configurations",
-      "translations": {
-        "de": "Configuraties"
-      },
-      "autogenerate": { "directory": "configurations" }
     }
   ]
 }
