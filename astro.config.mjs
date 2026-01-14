@@ -4,7 +4,7 @@ import starlight from "@astrojs/starlight";
 import { viewTransitions } from "astro-vtbot/starlight-view-transitions";
 
 import tailwindcss from "@tailwindcss/vite";
-import config from "./src/config/config.json" assert { type: "json" };
+import config from "./src/config/config.json" with { type: "json" };
 import social from "./src/config/social.json";
 import locals from "./src/config/locals.json";
 import sidebar from "./src/config/sidebar.json";
@@ -19,12 +19,20 @@ export const locales = locals
 
 // https://astro.build/config
 export default defineConfig({
+
+  
+
+  // site: 'https://tekbot-robotics-challenge.github.io',
+  // base: '/2025-Team-The_Winners-Docs',
+  // outDir: './dist',
+
   image: {
     service: { entrypoint: "astro/assets/services/noop" },
   },
   integrations: [
     starlight({
       title,
+      
       logo: {
         light: logo,
         dark: logo_darkmode,

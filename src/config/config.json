@@ -1,8 +1,8 @@
 {
   "site": {
     "title": "DocKit",
-    "logo": "/src/assets/logo-ight.svg",
-    "logo_darkmode": "/src/assets/document.png",
+    "logo": "/src/assets/logo-light.svg",
+    "logo_darkmode": "/src/assets/documents.png",
     "logo_width": "127",
     "logo_height": "32",
     "logo_text": "DocKit"

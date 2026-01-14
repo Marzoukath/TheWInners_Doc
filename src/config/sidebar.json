@@ -104,7 +104,8 @@
           "label": "[pencil] Test Final",
           "translations": {
             "de": "[pencil] Test Final"
-          }
+          },
+          "slug": "contents/editing/electronic"
         }
       ]
     },
