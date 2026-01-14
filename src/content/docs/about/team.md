@@ -7,106 +7,219 @@ head:
   - tag: style
     content: |
       .hero-bg { display: none !important; }
-      .content-panel { max-width: 70rem !important; margin: auto; padding:1.5rem 0px !important; }
-      #_top{
-      text-align: center;
-      font-size: 4rem;
-      padding-bottom: 3rem;
+      .content-panel { max-width: 80rem !important; margin: auto; padding: 1.5rem 0px !important; }
+      
+      /* Title styling */
+      h1 {
+        text-align: center;
+        font-size: 3.5rem;
+        margin-bottom: 3rem;
+        font-weight: 700;
+        background: linear-gradient(135deg, var(--accent) 0%, #4f46e5 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
       }
-      /* Team member images - all same size */
-      .team-member-img img {
-       
+      
+      h2 {
+        font-size: 1.8rem;
+        margin: 2.5rem 0 1.5rem;
+        padding-bottom: 0.75rem;
+        border-bottom: 3px solid;
+        border-image: linear-gradient(90deg, var(--accent) 0%, #4f46e5 100%) 1;
+        display: inline-block;
+      }
+      
+      .section-header {
+        text-align: center;
+        width: 100%;
+      }
+      
+      /* Team grid layout */
+      .team-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1.5rem;
+        margin-top: 1.5rem;
+      }
+      
+      /* Team member card */
+      .team-card {
+        background: linear-gradient(145deg, rgba(var(--color-gray-700), 0.6) 0%, rgba(var(--color-gray-800), 0.8) 100%);
+        border-radius: 16px;
+        padding: 1.5rem 1rem;
+        text-align: center;
+        transition: all 0.3s ease;
+        border: 1px solid rgba(var(--color-accent), 0.1);
+        backdrop-filter: blur(10px);
+      }
+      
+      .team-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        border-color: var(--accent);
+      }
+      
+      /* Team member image */
+      .team-photo {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 1rem;
+        border: 4px solid var(--accent);
+        padding: 3px;
+        background: var(--color-bg);
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      }
+      
+      .team-card:hover .team-photo {
+        transform: scale(1.05);
+        box-shadow: 0 8px 25px rgba(var(--color-accent), 0.3);
+      }
+      
+      /* Team member name */
+      .team-name {
+        font-size: 1rem;
+        font-weight: 600;
+        color: var(--color-text);
+        margin-bottom: 0.25rem;
+        line-height: 1.3;
+      }
+      
+      /* Team member level */
+      .team-level {
+        font-size: 0.85rem;
+        color: var(--accent);
+        font-weight: 500;
+      }
+      
+      /* Responsive adjustments */
+      @media (max-width: 768px) {
+        h1 { font-size: 2.5rem; }
+        .team-grid { grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); }
+        .team-photo { width: 110px; height: 110px; }
       }
 ---
+## **Our Team**
 
-# Team
+<div class="section-header">
 
 ## Electronics Team
 
-<div align="center"><span class="team-member-img">
+</div>
 
-![YEHOUENOU Peace Mathieu Chrysostome](/img/c.png)
+<div class="team-grid">
 
-</span></div>
+<div class="team-card">
 
-**YEHOUENOU Peace Mathieu Chrysostome** (BAC + 4)
+![YEHOUENOU Peace Mathieu Chrysostome](/img/chr.jpg)
 
-<div align="center"><span class="team-member-img">
+**YEHOUENOU Peace Mathieu Chrysostome**  
+<span class="team-level">BAC + 4</span>
 
-![VIANOU Sèna Lucresse](/img/lu.png)
+</div>
 
-</span></div>
+<div class="team-card">
 
-**VIANOU Sèna Lucresse** (BAC + 4)
+![VIANOU Sèna Lucresse](/img/luc.jpg)
 
-<div align="center"><span class="team-member-img">
+**VIANOU Sèna Lucresse**  
+<span class="team-level">BAC + 4</span>
 
-![HOUNSA Kévin](/img/k.png)
+</div>
 
-</span></div>
+<div class="team-card">
 
-**HOUNSA Kévin** (BAC + 4)
+![HOUNSA Kévin](/img/ke.jpg)
 
-<div align="center"><span class="team-member-img">
+**HOUNSA Kévin**  
+<span class="team-level">BAC + 4</span>
 
-![SONON Morel Sourou Pierre Claver](/img/m.png)
+</div>
 
-</span></div>
+<div class="team-card">
 
-**SONON Morel Sourou Pierre Claver** (BAC + 4)
+![SONON Morel Sourou Pierre Claver](/img/mor.jpg)
 
----
+**SONON Morel Sourou Pierre Claver**  
+<span class="team-level">BAC + 4</span>
+
+</div>
+
+</div>
+
+<div class="section-header">
 
 ## Computer Science Team
 
-<div align="center"><span class="team-member-img">
+</div>
 
-![CHATIGRE Larissa Ashley Sèlomè](/img/la.jpeg)
+<div class="team-grid">
 
-</span></div>
+<div class="team-card">
 
-**CHATIGRE Larissa Ashley Sèlomè** (BAC + 4)
+![CHATIGRE Larissa Ashley Sèlomè](/img/lar.jpg)
 
-<div align="center"><span class="team-member-img">
+**CHATIGRE Larissa Ashley Sèlomè**  
+<span class="team-level">BAC + 4</span>
 
-![AGBODJA Marzoukath Foumi](/img/mazo.png)
+</div>
 
-</span></div>
+<div class="team-card">
 
-**AGBODJA Marzoukath Foumi** (BAC + 4)
+![AGBODJA Marzoukath Foumi](/img/mazk.jpg)
 
-<div align="center"><span class="team-member-img">
+**AGBODJA Marzoukath Foumi**  
+<span class="team-level">BAC + 4</span>
 
-![COMLAN Ifè Léonce](/img/i.png)
+</div>
 
-</span></div>
+<div class="team-card">
 
-**COMLAN Ifè Léonce** (BAC + 3)
+![COMLAN Ifè Léonce](/img/ife.jpg)
 
----
+**COMLAN Ifè Léonce**  
+<span class="team-level">BAC + 3</span>
+
+</div>
+
+</div>
+
+<div class="section-header">
 
 ## Mechanical Team
 
-<div align="center"><span class="team-member-img">
+</div>
 
-![GANTIN Philippe Junior Segnon](/img/j.png)
+<div class="team-grid">
 
-</span></div>
+<div class="team-card">
 
-**GANTIN Philippe Junior Segnon** (BAC + 4)
+![GANTIN Philippe Junior Segnon](/img/ju.jpg)
 
-<div align="center"><span class="team-member-img">
+**GANTIN Philippe Junior Segnon**  
+<span class="team-level">BAC + 4</span>
 
-![NAMINAWADO Mikpamawu Géraud](/img/g.png)
+</div>
 
-</span></div>
+<div class="team-card">
 
-**NAMINAWADO Mikpamawu Géraud** (BAC + 4)
+![NAMINAWADO Mikpamawu Géraud](/img/gr.jpg)
 
-<div align="center"><span class="team-member-img">
+**NAMINAWADO Mikpamawu Géraud**  
+<span class="team-level">BAC + 4</span>
 
-![DJIWAN Ariane](/img/a.png)
+</div>
 
-</span></div>
+<div class="team-card">
 
-**DJIWAN Ariane** (BAC + 3)
+![DJIWAN Ariane](/img/ari.jpg)
+
+**DJIWAN Ariane**  
+<span class="team-level">BAC + 3</span>
+
+</div>
+
+</div>

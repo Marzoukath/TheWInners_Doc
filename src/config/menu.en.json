@@ -6,7 +6,11 @@
     },
     {
       "name": "Documentation",
-      "url": "/getting-started/introduction/overview/"
+      "url": "/getting-started/introduction/test1"
+    },
+    {
+      "name": "Team",
+      "url": "/about/team/"
     },
     {
       "name": "About",

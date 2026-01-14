@@ -122,14 +122,6 @@
         "de": "Mechanic"
       },
       "autogenerate": { "directory": "reference" }
-    },
-
-    {
-      "label": "Configurations",
-      "translations": {
-        "de": "Configuraties"
-      },
-      "autogenerate": { "directory": "configurations" }
     }
   ]
 }
