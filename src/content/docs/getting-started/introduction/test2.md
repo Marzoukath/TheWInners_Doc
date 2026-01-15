@@ -2,6 +2,30 @@
 ---
 title: 2nd Test - ROS2 Publisher/Subscriber
 description: Description of the 2nd Test - ROS2 Pusblisher/Subscriber
+head:
+  - tag: style
+    content: |
+      /* Responsive video container with 16:9 aspect ratio */
+      .video-wrapper {
+        position: relative;
+        width: 100%;
+        max-width: 900px;
+        margin: 2rem auto;
+        padding-bottom: 56.25%; /* 16:9 aspect ratio */
+        height: 0;
+        overflow: hidden;
+        border-radius: 12px;
+        box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+        background: #000;
+      }
+      .video-wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
 ---
 
 
@@ -123,7 +147,7 @@ ros2
 ```
 
 <div align="center">
-  ![](/img/ros2.png)
+  ![](public/img/ros2.png)
    <p><i>Figure 1 : Installation de ROS2 terminée avec succès</i></p>
 </div>
 
@@ -171,7 +195,7 @@ colcon build
 
 <div align="center">
 <div align="center">
-  ![](/img/colcon-build.png)
+  ![](public/img/colcon-build.png)
    <p><i>Figure 2 : Compilation de l'espace de travail</i></p>
 </div>
 
@@ -201,11 +225,11 @@ ros2 launch sensor_data_evaluation sensor_launch.py
 Vous verrez alors les messages Publisher et Subscriber dans le terminal.
 
 <div align="center">
-  ![](/img/launch.png)
+  ![](public/img/launch.png)
    <p><i>Figure 3 : Affichage du terminal</i></p>
 </div>
 <div align="center">
-  ![](/img/gui-interface.png)
+  ![](public/img/gui-interface.png)
    <p><i>Figure 4 : Affichage de l'interface graphique</i></p>
 </div>
 
@@ -561,13 +585,12 @@ def generate_launch_description():
 | Logs ROS2 en temps réel | Tableau statistiques (% bonnes/mauvaises valeurs) | Indicateurs visuels colorés |
 
 <center>
+<div class="video-wrapper">
 <iframe
   src="https://www.veed.io/view/627c1e6b-60f9-46c6-9233-f06be74c6f42?panel=share"
-  width="800"
-  height="600"
-  frameborder="0"
   allowfullscreen>
 </iframe>
+</div>
 </center>
 
 ---
@@ -581,25 +604,23 @@ La communication multimachine via DDS (Data Distribution Service) permet à plus
 #### PC1
 
 <center>
+<div class="video-wrapper">
 <iframe
   src="https://www.veed.io/view/8f7d8a0f-9be6-4c50-bae3-db6a898a8e4d?panel=share"
-  width="800"
-  height="600"
-  frameborder="0"
   allowfullscreen>
 </iframe>
+</div>
 </center>
 
 #### PC2
 
 <center>
+<div class="video-wrapper">
 <iframe
   src="https://www.veed.io/view/d2ed83f7-4880-4fe3-a865-9c5456e395fa?panel=share"
-  width="800"
-  height="600"
-  frameborder="0"
   allowfullscreen>
 </iframe>
+</div>
 </center>
 
 

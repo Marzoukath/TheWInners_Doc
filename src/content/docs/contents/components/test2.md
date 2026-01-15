@@ -105,9 +105,9 @@ In this test, we were asked to design our own power supply. So, we used the powe
 
 Here are the Pictures showing it :
 
-| ![Img1](/img/ali1.jpg) | ![Img2](/img/ali2.jpg) | ![Img3](/img/ali3.jpg) |
+| ![Img1](public/img/ali1.jpg) | ![Img2](public/img/ali2.jpg) | ![Img3](public/img/ali3.jpg) |
 |--------------------------|--------------------------|--------------------------|
-| ![Img1](/img/ali4.jpg) | ![Img2](/img/ali5.jpg) | ![Img3](/img/ali6.jpg) |
+| ![Img1](public/img/ali4.jpg) | ![Img2](public/img/ali5.jpg) | ![Img3](public/img/ali6.jpg) |
 
 <br />
 
@@ -170,35 +170,35 @@ Here are the Pictures showing it :
 
 **Boite noire**
 * Schematic capture:
-![Img1](/img/Test_2_circuit1_schematic.png)
+![Img1](public/img/Test_2_circuit1_schematic.png)
 <br />
 
 * Printed circuit board overview :
-![Img1](/img/Test_2_circuit1_pcb1.png)
+![Img1](public/img/Test_2_circuit1_pcb1.png)
 <br />
 
-![Img1](/img/Test_2_circuit1_pcb2.png)
+![Img1](public/img/Test_2_circuit1_pcb2.png)
 <br />
 
 * 3-D render of printed circuit board :
-![Img1](/img/Test_2_circuit1_3D.png)
+![Img1](public/img/Test_2_circuit1_3D.png)
 <br />
 
 **Boite de signalisation**
 
 * Schematic capture: :
-![Img1](/img/Test_2_circuit2_schematic.png)
+![Img1](public/img/Test_2_circuit2_schematic.png)
 <br />
 
 * Printed circuit board overview :
-![Img1](/img/Test_2_circuit2_pcb2.png)
+![Img1](public/img/Test_2_circuit2_pcb2.png)
 <br />
 
-![Img1](/img/Test_2_circuit2_pcb1.png)
+![Img1](public/img/Test_2_circuit2_pcb1.png)
 <br />
 
 * 3-D render of printed circuit board :
-![Img1](/img/Test_2_circuit2_3D.png)
+![Img1](public/img/Test_2_circuit2_3D.png)
 <br />
 
 
@@ -635,12 +635,12 @@ displayMode = (displayMode + 1) % 6;
 
 ## Pictures
 
-| ![Img1](/img/img1.jpg) | ![Img2](/img/img2.jpg) | ![Img3](/img/img3.jpg) |
+| ![Img1](public/img/img1.jpg) | ![Img2](public/img/img2.jpg) | ![Img3](public/img/img3.jpg) |
 |--------------------------|--------------------------|--------------------------|
-| ![Img1](/img/img4.jpg) | ![Img2](/img/img5.jpg) | ![Img3](/img/img6.jpg) |
-| ![Img1](/img/img7.jpg) | ![Img2](/img/img8.jpg) | ![Img3](/img/img9.jpg) |
-| ![Img1](/img/img10.jpg) | ![Img2](/img/img11.jpg) | ![Img3](/img/img12.jpg) |
-| ![Img1](/img/img13.jpg) | ![Img2](/img/img14.jpg) | ![Img3](/img/img15.jpg) |
+| ![Img1](public/img/img4.jpg) | ![Img2](public/img/img5.jpg) | ![Img3](public/img/img6.jpg) |
+| ![Img1](public/img/img7.jpg) | ![Img2](public/img/img8.jpg) | ![Img3](public/img/img9.jpg) |
+| ![Img1](public/img/img10.jpg) | ![Img2](public/img/img11.jpg) | ![Img3](public/img/img12.jpg) |
+| ![Img1](public/img/img13.jpg) | ![Img2](public/img/img14.jpg) | ![Img3](public/img/img15.jpg) |
 
 <br />
 

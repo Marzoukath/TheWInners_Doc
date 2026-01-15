@@ -20,7 +20,7 @@ The advanced level Test 3 consists of modeling a complex part that will be valid
 - **Material:** 1060 Alloy Aluminum
 - **Density:** 2700 Kg/m³
 
-![](/img/mec1.png)
+![](public/img/mec1.png)
 
 <br />
 
@@ -69,22 +69,22 @@ Download the modeling files by clicking by following these links :
 #### Step 1: Initial Sketch
 On the front plane, draw the following view while respecting the dimensions and angles.
 
-![](/img/mec2.png)
+![](public/img/mec2.png)
 
 #### Step 2: Base Extrusion
 Use the extruded boss feature and extrude the selected region by **96.5 mm** using the mid-plane option.
 
-![](/img/mec4.png)
+![](public/img/mec4.png)
 
 #### Step 3: Trapezoid Shape
 On the top plane, make the following sketch with a **6 mm offset** to get the trapezoid shape.
 
-![](/img/mec5.png)
+![](public/img/mec5.png)
 
 #### Step 4: Through Extrusion
 Make a **through all** extruded boss.
 
-![](/img/mec6.png)
+![](public/img/mec6.png)
 
 #### Step 5: Material Removal Series
 Proceed with a series of extruded cuts.
@@ -92,37 +92,37 @@ Proceed with a series of extruded cuts.
 #### Step 6: First Cut
 Make a **through all** extruded cut from the sketch.
 
-![](/img/mec7.png)
+![](public/img/mec7.png)
 
 #### Step 7: Bilateral Cuts
 Using the first initial sketch, make an extruded cut on both sides of the region, leaving a **5 mm gap** between them. Each cut is made with a **2.5 mm offset**.
 
-![](/img/mec8.png)
+![](public/img/mec8.png)
 
 #### Step 8: Intermediate Result
 After this operation, we obtain an intermediate part form.
 
-![](/img/mec9.png)
+![](public/img/mec9.png)
 
 #### Step 9: Additional Material Removal
 Continue with material removals for the region of sketch 1 (the first sketch).
 
-![](/img/mec10.png)
+![](public/img/mec10.png)
 
 #### Step 10: Mid-plane Boss
 Still using the first sketch, create a **5 mm extruded boss** with the mid-plane option.
 
-![](/img/mec11.png)
+![](public/img/mec11.png)
 
 #### Step 11: Final Features
 By making an extruded boss from the sketch on the top plane and extruded cuts for the **10 mm holes**, we obtain the penultimate part.
 
-![](/img/mec12.png)
+![](public/img/mec12.png)
 
 #### Step 12: Final Part
 Apply the material and the desired display mode. This gives us the final Test 3 part.
 
-![](/img/mec13.png)
+![](public/img/mec13.png)
 
 ## Variable Dimension System
 
@@ -134,7 +134,7 @@ For this test, dimensions **A, B, Z, Y, X, W** must be modified to obtain a new 
 3. Each time we modify these global variables, the dimensions are adjusted automatically
 4. This generates a new part configuration
 
-![](/img/mec14.png)
+![](public/img/mec14.png)
 
 #### Step 14: Variable Linking Methods
 When dimensioning to use variables:
@@ -150,9 +150,9 @@ At the end of this series of variable modification operations, we obtain **3 dif
 
 **(a) A = 193 mm; B = 88 mm; W = B/2 mm; X = A/4 mm; Y = B+5.5 mm; Z = B+15mm;**
 
-![](/img/equation_Cas_1.png)
+![](public/img/equation_Cas_1.png)
 
-![](/img/Masse1.png)
+![](public/img/Masse1.png)
 
 **The part mass is : 1400.64 gramms**
 
@@ -160,9 +160,9 @@ At the end of this series of variable modification operations, we obtain **3 dif
 
 **(b) A = 205 mm; B = 100mm; W = B/2 mm; X = A/4 mm; Y =B+5.5 mm; Z = B+15 mm;**
 
-![](/img/equation_Cas_2.png)
+![](public/img/equation_Cas_2.png)
 
-![](/img/Masse_Cas_2.png)
+![](public/img/Masse_Cas_2.png)
 
 **The part mass is : 1651.39 gramms**
 
@@ -170,9 +170,9 @@ At the end of this series of variable modification operations, we obtain **3 dif
 
 **(c) A = 210 mm; B = 105 mm; W = B/2 mm; X = A/4 mm; Y = B+5.5 mm; Z = B+15mm;**
 
-![](/img/equation_Cas_3.png)
+![](public/img/equation_Cas_3.png)
 
-![](/img/Masse_Cas_3.png)
+![](public/img/Masse_Cas_3.png)
 
 **The part mass is : 1760.41 gramms**
 
@@ -212,12 +212,12 @@ The part mass is **7854,78 gramms**
 
 <br />
 
-| ![Img1](/img/t3_1.jpg) | ![Img2](/img/t3_2.png) | ![Img3](/img/t3_3.png) |
+| ![Img1](public/img/t3_1.jpg) | ![Img2](public/img/t3_2.png) | ![Img3](public/img/t3_3.png) |
 |--------------------------|--------------------------|--------------------------|
-| ![Img1](/img/t3_4.png) | ![Img2](/img/t3_5.png) | ![Img3](/img/t3_6.png) |
-| ![Img1](/img/t3_7.png) | ![Img2](/img/t3_8.png) | ![Img3](/img/t3_9.png) |
-| ![Img1](/img/t3_10.png) | ![Img2](/img/t3_11.png) | ![Img3](/img/t3_12.png) |
-| ![Img1](/img/t3_13.png) | ![Img2](/img/t3_14.png) | ![Img3](/img/t3_15.png) |
-| ![Img1](/img/t3_16.png) | ![Img2](/img/t3_17.png) | ![Img3](/img/t3_18.png) |
-| ![Img1](/img/t3_17.png) | ![Img2](/img/t3_20.png) | ![Img3](/img/t3_21.png) |
-| ![Img1](/img/t3_22.png) | ![Img2](/img/t3_23.png) | ![Img3](/img/t3_24.png) |
+| ![Img1](public/img/t3_4.png) | ![Img2](public/img/t3_5.png) | ![Img3](public/img/t3_6.png) |
+| ![Img1](public/img/t3_7.png) | ![Img2](public/img/t3_8.png) | ![Img3](public/img/t3_9.png) |
+| ![Img1](public/img/t3_10.png) | ![Img2](public/img/t3_11.png) | ![Img3](public/img/t3_12.png) |
+| ![Img1](public/img/t3_13.png) | ![Img2](public/img/t3_14.png) | ![Img3](public/img/t3_15.png) |
+| ![Img1](public/img/t3_16.png) | ![Img2](public/img/t3_17.png) | ![Img3](public/img/t3_18.png) |
+| ![Img1](public/img/t3_17.png) | ![Img2](public/img/t3_20.png) | ![Img3](public/img/t3_21.png) |
+| ![Img1](public/img/t3_22.png) | ![Img2](public/img/t3_23.png) | ![Img3](public/img/t3_24.png) |

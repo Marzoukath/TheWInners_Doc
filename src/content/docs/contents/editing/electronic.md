@@ -36,7 +36,7 @@ The conveyor remains stationary until waste is detected. Once detected, the syst
 
 The electrical schematic presented below constitutes the complete synthesis of the system's electronic architecture. It integrates all components, circuits, and interconnections necessary for optimal installation operation.
 
-<center>![img](/img/SchemConv.png)</center>
+<center>![img](public/img/SchemConv.png)</center>
 
 <br />
 
@@ -46,7 +46,7 @@ The schematic is organized into several functional sub-blocks, each playing a cr
 
 ### DEEEK Robot Programmer Block
 
-<center>![img](/img/programmateur.png)</center>
+<center>![img](public/img/programmateur.png)</center>
 
 <br />
 
@@ -55,7 +55,7 @@ This block shows the connection interface for the DEEEK Robot USB-to-TTL program
 
 ### Color Sensor Connection Block
 
-<center>![img](/img/color.png)</center>
+<center>![img](public/img/color.png)</center>
 
 <br />
 
@@ -65,7 +65,7 @@ This block provides the power-over-I2C connection interface for the TCS34725 col
 
 <br />
 
-<center>![img](/img/bloc3.png)</center>
+<center>![img](public/img/bloc3.png)</center>
 
 <br />
 
@@ -87,7 +87,7 @@ External clock generation circuit using a 16MHz crystal (Y1) with two 22pF load 
 
 <br />
 
-<center>![img](/img/bloc4.png)</center>
+<center>![img](public/img/bloc4.png)</center>
 
 <br />
 
@@ -121,7 +121,7 @@ Status indication circuit with multiple LEDs (Rouge, Jaune, Bleue, Verte) connec
 
 ### Power Supply Block (4S2P Lithium Configuration)
 
-<center>![Img1](/img/piles.jpg)</center>
+<center>![Img1](public/img/piles.jpg)</center>
 
 Main power system using 8 lithium cells (3.7V each) arranged in 4S2P configuration. Four cells in series provide 14.8V nominal voltage, while parallel connection doubles capacity. This configuration delivers high voltage and extended runtime for demanding applications requiring sustained power output.
 
@@ -131,7 +131,7 @@ Main power system using 8 lithium cells (3.7V each) arranged in 4S2P configurati
 
 <center>
 
-![img](/img/alime.jpg) ![img](/img/alim.png)
+![img](public/img/alime.jpg) ![img](public/img/alim.png)
 
 </center>
 
@@ -145,11 +145,11 @@ In this test, we used the power supply built during the first test to charge bat
 
 Here are the Pictures showing it :
 
-| ![Img1](/img/ali1.jpg) | ![Img2](/img/ali2.jpg) | ![Img3](/img/ali3.jpg) |
+| ![Img1](public/img/ali1.jpg) | ![Img2](public/img/ali2.jpg) | ![Img3](public/img/ali3.jpg) |
 |--------------------------|--------------------------|--------------------------|
-| ![Img1](/img/ali4.jpg) | ![Img2](/img/ali5.jpg) | ![Img3](/img/ali6.jpg) |
+| ![Img1](public/img/ali4.jpg) | ![Img2](public/img/ali5.jpg) | ![Img3](public/img/ali6.jpg) |
 
-<center>![Img1](/img/charge.jpg)</center>
+<center>![Img1](public/img/charge.jpg)</center>
 
 <br />
 <br />
@@ -159,7 +159,7 @@ Here are the Pictures showing it :
 
 ### PCB Design Process
 
-| ![Img1](/img/pcbconv.png) | ![Img2](/img/pcb3d.png) |
+| ![Img1](public/img/pcbconv.png) | ![Img2](public/img/pcb3d.png) |
 |--------------------------|--------------------------|
 
 <br />
@@ -169,7 +169,7 @@ Manufacturing Steps
 
 ### Design Transfer: Circuit pattern transferred to photoresist-coated copper board
 
-<center>![Img1](/img/tf1.jpg)</center>
+<center>![Img1](public/img/tf1.jpg)</center>
 
 <br />
 
@@ -181,7 +181,7 @@ Drilling: Precise hole drilling for component mounting and via connections
 
 ### Assembly and Soldering
 
-| ![Img1](/img/imp1.jpg) | ![Img2](/img/imp2.jpg) |
+| ![Img1](public/img/imp1.jpg) | ![Img2](public/img/imp2.jpg) |
 |--------------------------|--------------------------|
 
 <br />
@@ -192,9 +192,9 @@ Following PCB fabrication, components are mounted and soldered according to the 
 
 ### Testing and Validation
 
-|![img](/img/tf2.jpg)|![img](/img/tf3.jpg)|
+|![img](public/img/tf2.jpg)|![img](public/img/tf3.jpg)|
 |--------------------|--------------------|
-|![img](/img/tf4.jpg)|![img](/img/imp3.jpg)|
+|![img](public/img/tf4.jpg)|![img](public/img/imp3.jpg)|
 
 <br />
 
@@ -234,7 +234,7 @@ Controlled via step and direction signals from the microcontroller through the T
 
 ### KY-008 Laser Diode Module
 
-<center>![Img1](/img/dlaser.jpg)</center>
+<center>![Img1](public/img/dlaser.jpg)</center>
 
 #### Description
 
@@ -262,7 +262,7 @@ The laser can be controlled digitally (ON/OFF) or with PWM for intensity modulat
 
 ### TCS34725 Color Sensor
 
-<center>![Img1](/img/color.jpeg)</center>
+<center>![Img1](public/img/color.jpeg)</center>
 
 #### Description
 The TCS34725 is a digital color sensor with RGB and clear light sensing capability. It features an integrated IR blocking filter and provides accurate color detection through I2C communication interface.
@@ -289,7 +289,7 @@ Communicates via I2C protocol to provide RGBC values. The sensor can automatical
 
 ### TB6600 Stepper Motor Driver
 
-<center>![Img1](/img/tb6600.jpg)</center>
+<center>![Img1](public/img/tb6600.jpg)</center>
 
 #### Description
 The TB6600 is a professional stepper motor driver capable of driving 4A, 40V stepper motors. It features microstepping capability, over-current protection, and simple step/direction interface.
@@ -320,7 +320,7 @@ The driver receives step pulses and direction signals from the microcontroller. 
 
 ### Photoresistor (LDR)
 
-<center>![Img1](/img/LDR.jpg)</center>
+<center>![Img1](public/img/LDR.jpg)</center>
 
 #### Description
 Light Dependent Resistor (LDR) is a passive component whose resistance varies inversely with incident light intensity. Used for ambient light detection and automatic brightness control applications.

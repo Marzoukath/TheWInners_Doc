@@ -34,7 +34,7 @@ Het hoofdconfiguratiebestand regelt de basisinstellingen van je site:
   },
   "metadata": {
     "meta_author": "DocKit Team",
-    "meta_image": "/images/og-image.png",
+    "meta_image": "/public/images/og-image.png",
     "meta_description": "Maak mooie documentatie met DocKit"
   }
 }

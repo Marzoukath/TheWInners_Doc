@@ -55,7 +55,7 @@ The system uses an **abstract Robot class** as a common base, allowing the imple
 ## :classical_building: Architecture
 
 ### Class Diagram
-![](/img/ClassDiagram.jpg)
+![](public/img/ClassDiagram.jpg)
 
 #### Explanation: Class Diagram
 This diagram details the static software structure of our robot.
@@ -68,7 +68,7 @@ ServoMotor: Controls the orientation of a servomotor (`write_angle()`).
 The behavioral subclasses (Forward, TurnRight, etc.) inherit from Robot and represent the different possible states or actions. Their main role is to implement a polymorphic version of the `move()` method, which translates a state (like "move forward") into concrete commands for the motors.
 
 ### Use Case Diagram
-![](/img/UseCaseDiagram.jpg)
+![](public/img/UseCaseDiagram.jpg)
 
 #### Explanation: Use Case Diagram
 This diagram presents the functional interactions between actors and the robotic system.
@@ -81,7 +81,7 @@ The main actions are Forward, Backward, TurnLeft, TurnRight, and Stop.
 The &lt;Include&gt; relationship is crucial: it means that the ObstacleAvoidance use case is systematically included in all movement actions. This ensures that the robot is constantly checking its environment to avoid collisions, making the system more robust and autonomous.
 
 ### Sequence Diagram
-![](/img/sequenceDiagram.jpg)
+![](public/img/sequenceDiagram.jpg)
 
 #### Explanation: Sequence Diagram
 This diagram illustrates the dynamic behavior of the system for a specific scenario: obstacle avoidance.

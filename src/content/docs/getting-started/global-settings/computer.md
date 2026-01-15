@@ -136,7 +136,7 @@ The web interface displays:
 - Battery Display
 - Audio
 
-![Web Dashboard Interface](/img/page.jpg)
+![Web Dashboard Interface](public/img/page.jpg)
 
 ---
 

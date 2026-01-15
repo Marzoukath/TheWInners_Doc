@@ -126,36 +126,36 @@ The regulated **5V output** is then **distributed across the different DC buses*
 
 #### Circuit principal – Architecture matérielle
 
-![Img1](/img/circuit3.png)
+![Img1](public/img/circuit3.png)
 
-| ![Img1](/img/pcb1.png) | ![Img1](/img/pcb2.png) |
+| ![Img1](public/img/pcb1.png) | ![Img1](public/img/pcb2.png) |
 |--------------------------|--------------------------|
-| ![Img3](/img/pcb4.jpg) | ![Img2](/img/pcb5.jpg) |
+| ![Img3](public/img/pcb4.jpg) | ![Img2](public/img/pcb5.jpg) |
 
 
 The ATMega328P microcontroller is powered by a 5V DC supply provided by a Buck converter (LM2596), represented in the schematic by the connector located near the transistor. A 16 MHz crystal oscillator, along with two 22 pF capacitors, provides the clock signal for the microcontroller.
 
-| ![Img1](/img/cap1.png) | ![Img1](/img/cap2.png) |
+| ![Img1](public/img/cap1.png) | ![Img1](public/img/cap2.png) |
 |--------------------------|--------------------------|
 
 LED D1, connected to the Lbuilt pin, is used to verify the presence of the bootloader on the microcontroller. The push-button SW1, together with a pull-up resistor, enables manual reset of the microcontroller.
 
-| ![Img1](/img/cap3.png) | ![Img1](/img/cap4.png) |
+| ![Img1](public/img/cap3.png) | ![Img1](public/img/cap4.png) |
 |--------------------------|--------------------------|
 
 A 6-pin header allows connection to an FTDI programmer for uploading code to the microcontroller. A second 5-pin header provides I2C communication and power supply to the PCA9685 module.
 
-| ![Img1](/img/cap5.png) | ![Img1](/img/cap6.png) |
+| ![Img1](public/img/cap5.png) | ![Img1](public/img/cap6.png) |
 |--------------------------|--------------------------|
 
 The battery monitoring circuit is based on a resistive voltage divider, which taps a fraction of the battery voltage. Using this voltage and the known divider ratio, the battery charge level can be estimated and displayed through LEDs D23 to D26.
 
-| ![Img1](/img/cap7.png) | ![Img1](/img/cap8.png) |
+| ![Img1](public/img/cap7.png) | ![Img1](public/img/cap8.png) |
 |--------------------------|--------------------------|
 
 An additional network composed of transistors and LEDs has been implemented to introduce an innovative feature. The LEDs forming digit segments will vary in brightness depending on the signal applied to the bases of 2N2219 transistors (used in simulation; 2N2222A will be used in the final implementation). These transistors, controlled by the PCA9685 module, allow the brightness of the LEDs connected to their collectors to be modulated.
 
-| ![Img1](/img/cap9.png) | ![Img1](/img/cap10.png) |
+| ![Img1](public/img/cap9.png) | ![Img1](public/img/cap10.png) |
 |--------------------------|--------------------------|
 
 Current-limiting resistors for both the LEDs and transistor bases have been carefully calculated to ensure stable and optimal operation of the circuit.
@@ -164,7 +164,7 @@ Current-limiting resistors for both the LEDs and transistor bases have been care
 
 #### Lithium Battery Charging System
 
-![Img3](/img/charg.jpg)
+![Img3](public/img/charg.jpg)
 
 The charging system consists of **four lithium battery charger modules** (such as TP4056 or similar), each dedicated to an individual battery. Each module’s output is connected directly to the terminals of its respective lithium cell.
 
@@ -489,9 +489,9 @@ The result is a spectacular display where segments move mechanically while progr
 
 ## Pictures
 
-| ![Img1](/img/img0001.jpg) | ![Img1](/img/img0002.jpg) |
+| ![Img1](public/img/img0001.jpg) | ![Img1](public/img/img0002.jpg) |
 |--------------------------|--------------------------|
-| ![Img3](/img/img0003.jpg) | ![Img2](/img/img0004.jpg) |
+| ![Img3](public/img/img0003.jpg) | ![Img2](public/img/img0004.jpg) |
 
 <br />
 
@@ -531,15 +531,15 @@ The result is a spectacular display where segments move mechanically while progr
 
 The enclosure was designed in Fusion 360 and 3D printed to house all the components.
 
-| ![Img1](/img/mod4.png) | ![Img1](/img/mod2.png) |
+| ![Img1](public/img/mod4.png) | ![Img1](public/img/mod2.png) |
 |--------------------------|--------------------------|
-| ![Img3](/img/mod3.png) | ![Img2](/img/mod1.png) |
+| ![Img3](public/img/mod3.png) | ![Img2](public/img/mod1.png) |
 
 <br />
 
-| ![Img1](/img/capcap1.jpg) | ![Img1](/img/capcap3.jpg) |
+| ![Img1](public/img/capcap1.jpg) | ![Img1](public/img/capcap3.jpg) |
 |--------------------------|--------------------------|
-| ![Img3](/img/capcap2.jpg) | ![Img2](/img/capcap4.jpg) |
+| ![Img3](public/img/capcap2.jpg) | ![Img2](public/img/capcap4.jpg) |
 
 </div>
 

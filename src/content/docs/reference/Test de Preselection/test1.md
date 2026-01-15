@@ -67,8 +67,8 @@ Access the modeling files by clicking [here](https://github.com/TekBot-Robotics-
 - **Density**: 0.0079 g/mm³  
 
 <center>
-![Img1](/img/mp1.png)
-![Img1](/img/mp2.jpg)
+![Img1](public/img/mp1.png)
+![Img1](public/img/mp2.jpg)
 </center>
 
 #### Process of Obtaining the Part
@@ -77,15 +77,15 @@ Access the modeling files by clicking [here](https://github.com/TekBot-Robotics-
 
 - Launch **SolidWorks** and select **New Part**.
 
-![Img1](/img/mp0.png)
+![Img1](public/img/mp0.png)
 
 - Click on **Piece** to start modeling a new piece.
 
-![Img1](/img/mp02.png)
+![Img1](public/img/mp02.png)
 
 - In the design tree, right-click the **Front Plane** and choose **Edit Sketch**.
 
-![Img1](/img/mp04.png)
+![Img1](public/img/mp04.png)
 
 - Set the unit system to **MMGS (Millimeter, Gram, Second)**.
 - Ensure decimals are set to **2**.
@@ -100,18 +100,18 @@ Access the modeling files by clicking [here](https://github.com/TekBot-Robotics-
 
 - Click on the **Line** function.
 
-![Img1](/img/mp38.png)
+![Img1](public/img/mp38.png)
 
 - Select the **Horizontal Constraint** and **For Construction** in the properties.
 - Position the **start and end points**, ensuring alignment with the reference frame.  
 - Click **Validate** to confirm.
 
-![Img1](/img/mp3.png)
+![Img1](public/img/mp3.png)
 
 - Click again on the **Vertical Constraint** to draw the vertical axis, ensuring alignment with the reference frame.  
 - Click **Validate** to confirm.  
 
-![Img1](/img/mp4.png)
+![Img1](public/img/mp4.png)
 
 ---> b. Draw Concentric Circles
 
@@ -120,7 +120,7 @@ Access the modeling files by clicking [here](https://github.com/TekBot-Robotics-
 - Stretch the circle to any size for now.  
 - Enter the **circle radius** in the properties panel on the left.  
 
-![Img1](/img/mp5.png)
+![Img1](public/img/mp5.png)
 
 - Select the **"Smart Dimension"** tool.  
 - Click on the **edge of the circle** → a diameter dimension will appear.  
@@ -131,7 +131,7 @@ Access the modeling files by clicking [here](https://github.com/TekBot-Robotics-
   - Diameter **150 mm**
 - Apply **concentricity constraints** to ensure a common center.
 
-![Img1](/img/mp12.png)
+![Img1](public/img/mp12.png)
 
 ---> c. Add Offset Circle
 
@@ -143,7 +143,7 @@ Access the modeling files by clicking [here](https://github.com/TekBot-Robotics-
 
 - Draw another circle with a diameter of **50 mm**, concentric with the 80 mm circle.
 
-![Img1](/img/mp15.png)
+![Img1](public/img/mp15.png)
 
 ---
 
@@ -155,27 +155,27 @@ Access the modeling files by clicking [here](https://github.com/TekBot-Robotics-
 - Set the appropriate diameter to represent a **75 mm fillet**.
 - Use the **Trim Entities** tool to remove excess lines, forming a closed contour.
 
-![Img1](/img/mp18.png)
-![Img1](/img/mp19.png)
+![Img1](public/img/mp18.png)
+![Img1](public/img/mp19.png)
 
 ---> b. Offset the Arc
 
 - Select the arc and apply a **10 mm offset** using **Offset Entities**.
 - Trim intersecting entities to clean up the sketch.
 
-![Img1](/img/mp23.png)
+![Img1](public/img/mp23.png)
 
 ---> c. Mirror the Cutout
 
 - Use **Mirror Entities** to duplicate the feature across the **horizontal axis**.
 
-![Img1](/img/mp24.png)
-![Img1](/img/mp25.png)
+![Img1](public/img/mp24.png)
+![Img1](public/img/mp25.png)
 
 - Then mirror the resulting shapes across the **vertical axis** for full symmetry.
 
-![Img1](/img/mp26.png).
-![Img1](/img/mp27.png)
+![Img1](public/img/mp26.png).
+![Img1](public/img/mp27.png)
 
 - Ensure the sketch forms a closed loop.
 
@@ -189,7 +189,7 @@ Access the modeling files by clicking [here](https://github.com/TekBot-Robotics-
   - Choose **Blind** extrusion with a depth of **20 mm**.
   - Select only the **100 mm diameter** region to extrude the solid part.
 
-  ![Img1](/img/mp30.png)
+  ![Img1](public/img/mp30.png)
 
 ---
 
@@ -199,8 +199,8 @@ Access the modeling files by clicking [here](https://github.com/TekBot-Robotics-
   - Set cut depth to **10 mm**.
   - Select the region between **100 mm** and **135.6 mm** circles as the cut profile.
 
-![Img1](/img/mp34.png)
-![Img1](/img/mp35.png)
+![Img1](public/img/mp34.png)
+![Img1](public/img/mp35.png)
 
 ---
 
@@ -209,7 +209,7 @@ Access the modeling files by clicking [here](https://github.com/TekBot-Robotics-
 - Type **Mass** in the search bar.  
 - Click on **Mass Properties**.
 
-![Img1](/img/mp36.png) 
+![Img1](public/img/mp36.png) 
 
 **The part mass should be 2850.16 grams.**
 
@@ -226,7 +226,7 @@ Access the modeling files by clicking [here](https://github.com/TekBot-Robotics-
 - **Density**: **0.0027 g/mm³**  
 
 <center>
-![Img1](/img/ma1.png)
+![Img1](public/img/ma1.png)
 </center>
  
 
@@ -238,7 +238,7 @@ Access the modeling files by clicking [here](https://github.com/TekBot-Robotics-
 - Navigate to **SolidWorks Materials → Aluminum Alloy → Alloy 1060**.  
 - Click **Apply and Close**.  
 
-![Img1](/img/ma2.png)
+![Img1](public/img/ma2.png)
 
 ---
 
@@ -246,13 +246,13 @@ Access the modeling files by clicking [here](https://github.com/TekBot-Robotics-
 
 - Click on **Front Plane**.  
 
-![Img1](/img/ma3.png)
+![Img1](public/img/ma3.png)
 
 --> **3. Sketch Creation**
 
 - Click on the **Circle** tool and draw **concentric circles** with diameters **20 mm and 38 mm**, centered on the vertical axis.  
 
-![Img1](/img/ma4.png)
+![Img1](public/img/ma4.png)
 
 - Click on **Smart Dimension**:  
    - Select the **64 mm** and **38 mm** diameter circles.  
@@ -263,20 +263,20 @@ Access the modeling files by clicking [here](https://github.com/TekBot-Robotics-
    - Click on an **external point** (the created circle will be tangent to the selected circles).  
 - Specify the **fillet radius** as **R64**.
 
-![Img1](/img/ma5.png)
+![Img1](public/img/ma5.png)
 
 - Click on the **Trim Entities** tool to remove overlapping sketch parts and create a closed sketch.  
 - Select the **Trim tool properties**.  
 - Click on the **entities** to remove.
 
-![Img1](/img/ma6.png)
+![Img1](public/img/ma6.png)
 
 - Apply the **dimensioning** to the fillet.  
 - Click on the **Symmetry** tool.  
 - Select the entities to **symmetrize**: **R64 fillet**.  
 - Select the **symmetry axis**: **Vertical axis**.
 
-![Img1](/img/ma7.png)
+![Img1](public/img/ma7.png)
 
 ---
 
@@ -285,17 +285,17 @@ Access the modeling files by clicking [here](https://github.com/TekBot-Robotics-
 - Click on **Features → Extruded Boss/Base**.  
 - Select the entities to **extrude**. 
 
-![Img1](/img/ma8.png)
+![Img1](public/img/ma8.png)
 
 - Click **Validate**.  
 - Click on **Boss/Base → Sketch**.  
 
-![Img1](/img/ma9.png)
+![Img1](public/img/ma9.png)
 
 - Click on **Features → Extruded Boss/Base**.  
 - Select the entities to **extrude**.  
 
-![Img1](/img/ma10.png)
+![Img1](public/img/ma10.png)
 
 - Click **Validate**.  
 - Click on **Boss/Base → Sketch → Extruded Boss/Base**.  
@@ -303,19 +303,19 @@ Access the modeling files by clicking [here](https://github.com/TekBot-Robotics-
 - In the parameters, select **Direction 1** and **Direction 2**.  
 - Specify the **extrusion distances**: **15 mm and 30 mm**.  
 
-![Img1](/img/ma11.png)
+![Img1](public/img/ma11.png)
 
 - Click **Validate**.  
 - Click on **Boss/Base → Sketch → Extruded Cut**.  
 - Select the entities to **cut**: **43 mm and 55 mm diameter circles**.  
 
-![Img1](/img/ma12.png)
+![Img1](public/img/ma12.png)
 
 - Click **Validate**.  
 
 --> **6. Mass Properties**
 
-![Img1](/img/ma13.png)
+![Img1](public/img/ma13.png)
 
 - **Mass Calculation**: Use the **Mass Properties** tool to determine the part's mass.  
 
@@ -334,7 +334,7 @@ Access the modeling files by clicking [here](https://github.com/TekBot-Robotics-
 - **Density**: **0.0079 g/mm³**  
 
 <center>
-![Img1](/img/ma14.png)
+![Img1](public/img/ma14.png)
 </center>
 
 --> **1. Modifying Part 3 Parameters**
@@ -345,7 +345,7 @@ Access the modeling files by clicking [here](https://github.com/TekBot-Robotics-
   - Browse to **SolidWorks Materials > Steel > AISI 1020**
   - Click **Apply**, then **Close**
 
-  ![Img1](/img/mo2.png)
+  ![Img1](public/img/mo2.png)
 
 - Click on the **Front Plane**, then select **Sketch**
 
@@ -356,23 +356,23 @@ Access the modeling files by clicking [here](https://github.com/TekBot-Robotics-
 - Use the **Line** tool to draw a **trapezoid** (initial dimensions can be arbitrary)
 - Use **Smart Dimensioning** to set precise dimensions  
 
-![Img1](/img/mo3.png)
+![Img1](public/img/mo3.png)
 
   _Tip: Reference the origin to fix the sketch and improve stability_
 
 - Use the **Offset Entities** tool to offset the trapezoid **10 mm inward**
 
-![Img1](/img/mo4.png)
+![Img1](public/img/mo4.png)
 
   - If the offset direction is incorrect, reverse it in the **Property Manager**
 
 - Use the **Line** tool again to draw a **vertical line** starting from the base of the 150 mm horizontal segment
 
-![Img1](/img/mo5.png)
+![Img1](public/img/mo5.png)
 
 - Apply **Smart Dimensioning** to position this line relative to a fixed reference point
 
-![Img1](/img/mo6.png)
+![Img1](public/img/mo6.png)
 
 - Verify that the sketch is **fully constrained**
   - If not, apply necessary constraints to stabilize the geometry
@@ -390,11 +390,11 @@ Access the modeling files by clicking [here](https://github.com/TekBot-Robotics-
   - **Direction:** Select **Mid Plane**
   - **Depth:** 100 mm
 
-  ![Img1](/img/mo7.png)
+  ![Img1](public/img/mo7.png)
 
 - Confirm by clicking **OK**
 
-![Img1](/img/mo8.png)
+![Img1](public/img/mo8.png)
 
 
 ---> Cut-Extrude (Material Removal)
@@ -405,11 +405,11 @@ Access the modeling files by clicking [here](https://github.com/TekBot-Robotics-
   - **Direction:** Select **Mid Plane**
   - **Depth:** 60 mm
 
-  ![Img1](/img/mo9.png)
+  ![Img1](public/img/mo9.png)
 
 - Confirm by clicking **OK**
 
-![Img1](/img/mo10.png)
+![Img1](public/img/mo10.png)
 
 ---
 
@@ -419,7 +419,7 @@ Access the modeling files by clicking [here](https://github.com/TekBot-Robotics-
 - Click on **Mass Properties**
 - Review the calculated mass based on geometry and material assignment
 
-![Img1](/img/ma17.png)
+![Img1](public/img/ma17.png)
 
 **The piece mass is : 1633.25 gramms**
 
@@ -435,7 +435,7 @@ Access the modeling files by clicking [here](https://github.com/TekBot-Robotics-
 - **Material**: **Aluminum Alloy 1060**  
 - **Density**: **0.0027 g/mm³**
 
-<center>![Img1](/img/ma15.png)</center>
+<center>![Img1](public/img/ma15.png)</center>
 
 --> **1. Updating Material Settings**
 
@@ -445,7 +445,7 @@ Access the modeling files by clicking [here](https://github.com/TekBot-Robotics-
   - Navigate to **SolidWorks Materials > Aluminum Alloys > 1060 Alloy**
   - Click **Apply**, then **Close**
 
-![Img1](/img/mi1.png)
+![Img1](public/img/mi1.png)
 
 ---
 
@@ -459,11 +459,11 @@ Access the modeling files by clicking [here](https://github.com/TekBot-Robotics-
 
 - Use the **Line** tool to draw a profile similar to the front view of the part
 
-![Img1](/img/mi2.png)
+![Img1](public/img/mi2.png)
 
 - Use **Smart Dimension** to assign dimensions to the sketch elements
 
-![Img1](/img/mi3.png)
+![Img1](public/img/mi3.png)
 
   - Reference the origin wherever possible for stability
 - Exit the sketch
@@ -480,7 +480,7 @@ Access the modeling files by clicking [here](https://github.com/TekBot-Robotics-
   - Set **Depth** to **50 mm**
 - Select the appropriate contour and **confirm**
 
-![Img1](/img/mi4.png)
+![Img1](public/img/mi4.png)
 
 ---> Second Extrusion
 
@@ -490,11 +490,11 @@ Access the modeling files by clicking [here](https://github.com/TekBot-Robotics-
   - Define the **direction** carefully (flip if needed)
   - Choose **Up to Surface** as the end condition if required, and select the target face
 
-  ![Img1](/img/mi5.png)
+  ![Img1](public/img/mi5.png)
 
 - Validate the extrusion
 
-![Img1](/img/mi6.png)
+![Img1](public/img/mi6.png)
 
 
 ---> Third Extrusion
@@ -503,11 +503,11 @@ Access the modeling files by clicking [here](https://github.com/TekBot-Robotics-
   - Again, pay attention to **offset direction**
   - Use **Up to Surface** for precise alignment
 
-  ![Img1](/img/mi7.png)
+  ![Img1](public/img/mi7.png)
 
 - Confirm the operation
 
-![Img1](/img/mi8.png)
+![Img1](public/img/mi8.png)
 
 ---
 
@@ -518,11 +518,11 @@ Access the modeling files by clicking [here](https://github.com/TekBot-Robotics-
   - Select the **profile** to revolve
   - Choose the **axis of revolution**
 
-  ![Img1](/img/mi10.png)
+  ![Img1](public/img/mi10.png)
 
 - Confirm the feature
 
-![Img1](/img/mi11.png)
+![Img1](public/img/mi11.png)
 
 ---
 
@@ -531,7 +531,7 @@ Access the modeling files by clicking [here](https://github.com/TekBot-Robotics-
 - Use the **Fillet** tool to apply a **2 mm radius** to the designated edge(s)
 - Validate the fillet
 
-![Img1](/img/mi12.png)
+![Img1](public/img/mi12.png)
 
 ---
 
@@ -542,7 +542,7 @@ Access the modeling files by clicking [here](https://github.com/TekBot-Robotics-
 - Review the calculated mass value
 
 
-![Img1](/img/ma16.png)
+![Img1](public/img/ma16.png)
 
 **The piece mass is : 112.37 gramms**
 
@@ -554,8 +554,8 @@ Access the modeling files by clicking [here](https://github.com/TekBot-Robotics-
 This stage of the test involves assembling various components to form a mechanical gripper. After downloading the provided `.zip` file, the goal is to assemble the given parts using appropriate constraints.
 
 <center>
-![Img1](/img/ass1.png)
-![Img1](/img/ass2.png)
+![Img1](public/img/ass1.png)
+![Img1](public/img/ass2.png)
 </center>
 
 ---
@@ -566,18 +566,18 @@ This stage of the test involves assembling various components to form a mechanic
 This constraint aligns two cylindrical or circular axes (holes, shafts, cylinders) to share the same center axis.  
 **Example:** Aligning a shaft with its corresponding hole ensures proper axial alignment.
 
-![Img1](/img/a1.png)
+![Img1](public/img/a1.png)
 
 --> **2. Coincident Constraint**
 This constraint forces two planar or linear surfaces to touch, making them coplanar or flush.  
 **Usage:** Used to attach one part directly against another.
 
-![Img1](/img/a2.png)
+![Img1](public/img/a2.png)
 
 --> **3. Symmetric Components Function**
 Under the **Linear Component Pattern** feature, this function generates a mirrored component from a parent part across a defined reference plane.
 
-![Img1](/img/a3.png)
+![Img1](public/img/a3.png)
 
 ---
 
@@ -585,7 +585,7 @@ Under the **Linear Component Pattern** feature, this function generates a mirror
 
 1. **Open SolidWorks**, then open the file `ASSEMBLAGE PINCE`.
 
-<center>![Img1](/img/a4.png)</center>
+<center>![Img1](public/img/a4.png)</center>
 
 2. Insert the following parts to complete the mechanical gripper:
    - Connecting Links (Biellettes)  
@@ -603,7 +603,7 @@ Under the **Linear Component Pattern** feature, this function generates a mirror
 - Insert the **first biellette** (link)
 - Apply **Coaxial** and **Coincident** constraints to mount it on top of the cylinder rod end
 
-<center>![Img1](/img/a8.png)</center>
+<center>![Img1](public/img/a8.png)</center>
 
 <br />
 
@@ -612,7 +612,7 @@ Under the **Linear Component Pattern** feature, this function generates a mirror
 - Use **Coaxial** and **Coincident** constraints for alignment
 - Add a **Coincident constraint** between the two link faces for perfect overlap
 
-<center>![Img1](/img/a9.png)</center>
+<center>![Img1](public/img/a9.png)</center>
 
 <br />
 
@@ -620,7 +620,7 @@ Under the **Linear Component Pattern** feature, this function generates a mirror
 
 - Use the **Top Plane** and the **Symmetric Components** tool to mirror and complete all four links required for the gripper
 
-<center>![Img1](/img/a5.png)</center>
+<center>![Img1](public/img/a5.png)</center>
 
 <br />
 
@@ -628,7 +628,7 @@ Under the **Linear Component Pattern** feature, this function generates a mirror
 - Insert the **Jaw Holder** using **Coaxial** and **Coincident** constraints
 - Apply symmetry with respect to the **Top Plane**, as done previously
 
-![Img1](/img/a6.png)
+![Img1](public/img/a6.png)
 
 #### Finalizing Assembly
 - Insert the **jaws (left and right)**  
@@ -639,7 +639,7 @@ Under the **Linear Component Pattern** feature, this function generates a mirror
   - **Circlips** for locking  
 - This results in the complete **mechanical gripper**
 
-![Img1](/img/a7.png)
+![Img1](public/img/a7.png)
 
 ---
 
@@ -648,11 +648,11 @@ Under the **Linear Component Pattern** feature, this function generates a mirror
 --> **1. Center of Gravity – Open Position**
 - Fix the rod end at the **minimum extension**
 
-![Img1](/img/a10.png)
+![Img1](public/img/a10.png)
 
 - Analyze the center of gravity of the entire assembly in this **fully open** position
 
-<center>![Img1](/img/a11.png)</center>
+<center>![Img1](public/img/a11.png)</center>
 
 | Configuration      | X (mm)  | Y (mm)  | Z (mm)  |
 |--------------------|---------|---------|---------|
@@ -661,11 +661,11 @@ Under the **Linear Component Pattern** feature, this function generates a mirror
 --> **2. Center of Gravity – Closed Position**
 - Fix the rod end at the **maximum extension**
 
-![Img1](/img/a12.png)
+![Img1](public/img/a12.png)
 
 - Analyze the center of gravity in this **fully closed** configuration
 
-<center>![Img1](/img/a13.png)</center>
+<center>![Img1](public/img/a13.png)</center>
 
 | Configuration      | X (mm)  | Y (mm)  | Z (mm)  |
 |--------------------|---------|---------|---------|

@@ -114,7 +114,7 @@ head:
 
 <div class="team-card">
 
-![YEHOUENOU Peace Mathieu Chrysostome](/img/chr.jpg)
+![YEHOUENOU Peace Mathieu Chrysostome](public/img/chr.jpg)
 
 **YEHOUENOU Peace Mathieu Chrysostome**  
 <span class="team-level">BAC + 4</span>
@@ -123,7 +123,7 @@ head:
 
 <div class="team-card">
 
-![VIANOU Sèna Lucresse](/img/luc.jpg)
+![VIANOU Sèna Lucresse](public/img/luc.jpg)
 
 **VIANOU Sèna Lucresse**  
 <span class="team-level">BAC + 4</span>
@@ -132,7 +132,7 @@ head:
 
 <div class="team-card">
 
-![HOUNSA Kévin](/img/ke.jpg)
+![HOUNSA Kévin](public/img/ke.jpg)
 
 **HOUNSA Kévin**  
 <span class="team-level">BAC + 4</span>
@@ -141,7 +141,7 @@ head:
 
 <div class="team-card">
 
-![SONON Morel Sourou Pierre Claver](/img/mor.jpg)
+![SONON Morel Sourou Pierre Claver](public/img/mor.jpg)
 
 **SONON Morel Sourou Pierre Claver**  
 <span class="team-level">BAC + 4</span>
@@ -160,7 +160,7 @@ head:
 
 <div class="team-card">
 
-![CHATIGRE Larissa Ashley Sèlomè](/img/lar.jpg)
+![CHATIGRE Larissa Ashley Sèlomè](public/img/lar.jpg)
 
 **CHATIGRE Larissa Ashley Sèlomè**  
 <span class="team-level">BAC + 4</span>
@@ -169,7 +169,7 @@ head:
 
 <div class="team-card">
 
-![AGBODJA Marzoukath Foumi](/img/mazk.jpg)
+![AGBODJA Marzoukath Foumi](public/img/mazk.jpg)
 
 **AGBODJA Marzoukath Foumi**  
 <span class="team-level">BAC + 4</span>
@@ -178,7 +178,7 @@ head:
 
 <div class="team-card">
 
-![COMLAN Ifè Léonce](/img/ife.jpg)
+![COMLAN Ifè Léonce](public/img/ife.jpg)
 
 **COMLAN Ifè Léonce**  
 <span class="team-level">BAC + 3</span>
@@ -197,7 +197,7 @@ head:
 
 <div class="team-card">
 
-![GANTIN Philippe Junior Segnon](/img/ju.jpg)
+![GANTIN Philippe Junior Segnon](public/img/ju.jpg)
 
 **GANTIN Philippe Junior Segnon**  
 <span class="team-level">BAC + 4</span>
@@ -206,7 +206,7 @@ head:
 
 <div class="team-card">
 
-![NAMINAWADO Mikpamawu Géraud](/img/gr.jpg)
+![NAMINAWADO Mikpamawu Géraud](public/img/gr.jpg)
 
 **NAMINAWADO Mikpamawu Géraud**  
 <span class="team-level">BAC + 4</span>
@@ -215,7 +215,7 @@ head:
 
 <div class="team-card">
 
-![DJIWAN Ariane](/img/ari.jpg)
+![DJIWAN Ariane](public/img/ari.jpg)
 
 **DJIWAN Ariane**  
 <span class="team-level">BAC + 3</span>

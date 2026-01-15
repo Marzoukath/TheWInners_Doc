@@ -45,9 +45,9 @@ head:
 
 <div align="center">
 
-| ![Img1](/img/ii1.jpg) | ![Img2](/img/ii2.jpg) | ![Img3](/img/ii3.jpg) |
+| ![Img1](public/img/ii1.jpg) | ![Img2](public/img/ii2.jpg) | ![Img3](public/img/ii3.jpg) |
 |--------------------------|--------------------------|--------------------------|
-| ![Img1](/img/ii4.jpg) | ![Img2](/img/ii5.jpg) | ![Img3](/img/ii2.jpg) |
+| ![Img1](public/img/ii4.jpg) | ![Img2](public/img/ii5.jpg) | ![Img3](public/img/ii2.jpg) |
 
 </div>
 
@@ -57,12 +57,12 @@ head:
 
 <div align="center">
 
-| ![Img1](/img/001.jpg) | ![Img2](/img/002.jpg) | ![Img3](/img/003.jpg) |
+| ![Img1](public/img/001.jpg) | ![Img2](public/img/002.jpg) | ![Img3](public/img/003.jpg) |
 |--------------------------|--------------------------|--------------------------|
-| ![Img1](/img/004.jpg) | ![Img2](/img/005.jpg) | ![Img3](/img/006.jpg) |
-| ![Img1](/img/007.jpg) | ![Img2](/img/008.jpg) | ![Img3](/img/009.jpg) |
-| ![Img1](/img/010.jpg) | ![Img2](/img/011.jpg) | ![Img3](/img/012.jpg) |
-| ![Img1](/img/013.jpg) | ![Img2](/img/014.jpg) | ![Img3](/img/015.jpg) |
+| ![Img1](public/img/004.jpg) | ![Img2](public/img/005.jpg) | ![Img3](public/img/006.jpg) |
+| ![Img1](public/img/007.jpg) | ![Img2](public/img/008.jpg) | ![Img3](public/img/009.jpg) |
+| ![Img1](public/img/010.jpg) | ![Img2](public/img/011.jpg) | ![Img3](public/img/012.jpg) |
+| ![Img1](public/img/013.jpg) | ![Img2](public/img/014.jpg) | ![Img3](public/img/015.jpg) |
 
 </div>
 
@@ -72,9 +72,9 @@ head:
 
 <div align="center">
 
-| ![Class Diagram](/img/ClassDiagram.jpg) | ![FTDI Circuit](/img/FTDI_with_ATMega.png) | ![LDR Sensor](/img/LDR.jpg) |
+| ![Class Diagram](public/img/ClassDiagram.jpg) | ![FTDI Circuit](public/img/FTDI_with_ATMega.png) | ![LDR Sensor](public/img/LDR.jpg) |
 |--------------------------|--------------------------|--------------------------|
-| ![Motor Nema17](/img/MN17.png) | ![Schematic](/img/SchemConv.png) | ![PCB Design](/img/Test_2_circuit1_pcb1.png) |
+| ![Motor Nema17](public/img/MN17..png) | ![Schematic](public/img/SchemConv.png) | ![PCB Design](public/img/Test_2_circuit1_pcb1.png) |
 
 </div>
 
@@ -84,9 +84,9 @@ head:
 
 <div align="center">
 
-| ![3D Circuit 1](/img/Test_2_circuit1_3D.png) | ![3D Circuit 2](/img/Test_2_circuit2_3D.png) | ![PCB Layout 1](/img/Test_2_circuit1_pcb2.png) |
+| ![3D Circuit 1](public/img/Test_2_circuit1_3D.png) | ![3D Circuit 2](public/img/Test_2_circuit2_3D.png) | ![PCB Layout 1](public/img/Test_2_circuit1_pcb2.png) |
 |--------------------------|--------------------------|--------------------------|
-| ![PCB Layout 2](/img/Test_2_circuit2_pcb1.png) | ![Schematic Design](/img/Test_2_circuit1_schematic.png) | ![Use Case Diagram](/img/UseCaseDiagram.jpg) |
+| ![PCB Layout 2](public/img/Test_2_circuit2_pcb1.png) | ![Schematic Design](public/img/Test_2_circuit1_schematic.png) | ![Use Case Diagram](public/img/UseCaseDiagram.jpg) |
 
 </div>
 
@@ -96,9 +96,9 @@ head:
 
 <div align="center">
 
-| ![Assembly 1](/img/ass1.png) | ![Assembly 2](/img/ass2.png) | ![Bamboulab](/img/bamboulab.jpeg) |
+| ![Assembly 1](public/img/ass1.png) | ![Assembly 2](public/img/ass2.png) | ![Bamboulab](public/img/bamboulab.jpeg) |
 |--------------------------|--------------------------|--------------------------|
-| ![Case Study 2](/img/Masse_Cas_2.png) | ![Case Study 3](/img/Masse_Cas_3.png) | ![Mass 1](/img/Masse1.png) |
+| ![Case Study 2](public/img/Masse_Cas_2.png) | ![Case Study 3](public/img/Masse_Cas_3.png) | ![Mass 1](public/img/Masse1.png) |
 
 </div>
 

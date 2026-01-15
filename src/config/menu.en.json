@@ -2,19 +2,19 @@
   "main": [
     {
       "name": "Home",
-      "url": "/"
+      "url": "/2025-Team-The_Winners-Docs"
     },
     {
       "name": "Documentation",
-      "url": "/getting-started/introduction/test1"
+      "url": "/2025-Team-The_Winners-Docs/getting-started/introduction/test1"
     },
     {
       "name": "Team",
-      "url": "/about/team/"
+      "url": "/2025-Team-The_Winners-Docs/about/team/"
     },
     {
       "name": "About",
-      "url": "/about/introduction/"
+      "url": "/2025-Team-The_Winners-Docs/about/introduction/"
     },
     {
       "name": "Media",
@@ -23,11 +23,11 @@
       "children": [
         {
           "name": "Photos",
-          "url": "/media/photos/"
+          "url": "/2025-Team-The_Winners-Docs/media/photos/"
         },
         {
           "name": "Videos",
-          "url": "/media/videos/"
+          "url": "/2025-Team-The_Winners-Docs/media/videos/"
         }
       ]
     }
@@ -42,15 +42,15 @@
         },
         {
           "name": "Discord EPAC",
-          "url": "/"
+          "url": "/2025-Team-The_Winners-Docs"
         },
         {
           "name": "Twitter TRC 2025",
-          "url": "/"
+          "url": "/2025-Team-The_Winners-Docs"
         },
         {
           "name": "Contribuez au projet",
-          "url": "/"
+          "url": "/2025-Team-The_Winners-Docs"
         }
       ]
     },
@@ -59,23 +59,23 @@
       "links": [
         {
           "name": "Démarrage rapide",
-          "url": "/getting-started/"
+          "url": "/2025-Team-The_Winners-Docs/getting-started/"
         },
         {
           "name": "Spécifications robot",
-          "url": "/robot-specs/"
+          "url": "/2025-Team-The_Winners-Docs/robot-specs/"
         },
         {
           "name": "Résultats & démos",
-          "url": "/results/"
+          "url": "/2025-Team-The_Winners-Docs/results/"
         },
         {
           "name": "Guide d'équipe",
-          "url": "/team-guide/"
+          "url": "/2025-Team-The_Winners-Docs/team-guide/"
         },
         {
           "name": "FAQ TRC",
-          "url": "/faq/"
+          "url": "/2025-Team-The_Winners-Docs/faq/"
         }
       ]
     },
@@ -84,23 +84,23 @@
       "links": [
         {
           "name": "Documentation complète",
-          "url": "/docs/"
+          "url": "/2025-Team-The_Winners-Docs/docs/"
         },
         {
           "name": "Galerie photos",
-          "url": "/media/photos/"
+          "url": "/2025-Team-The_Winners-Docs/media/photos/"
         },
         {
           "name": "Meilleures pratiques",
-          "url": "/best-practices/"
+          "url": "/2025-Team-The_Winners-Docs/best-practices/"
         },
         {
           "name": "Performance robot",
-          "url": "/performance/"
+          "url": "/2025-Team-The_Winners-Docs/performance/"
         },
         {
           "name": "EPAC officiel",
-          "url": "https://epac.edu.bj/"
+          "url": "https://epac-uac.bj/"
         }
       ]
     }

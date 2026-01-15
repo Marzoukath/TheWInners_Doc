@@ -41,7 +41,7 @@ Access the kicad and arduino files by clicking [here](https://github.com/TekBot-
 
 #### System Overview  
 
-![Power Circuit](/img/circuit.png)  
+![Power Circuit](public/img/circuit.png)  
 
 A custom-designed power supply built around a **220V to 15V transformer**, **bridge rectifier**, **filtering capacitor**, and a **buck regulator (LM2596-5)**, with added **current limiting circuitry** and **visual indicators**.  
 
@@ -113,7 +113,7 @@ Use 1/4W resistor
 
 #### Current Limiting Cell  
 
-![Limiter Circuit](/img/me0.png)  
+![Limiter Circuit](public/img/me0.png)  
 
 - **Components**:  
   - Transistor: 2N2222  
@@ -133,8 +133,8 @@ Use 600Ω, 1/4W
 
 #### Implementation Photos  
 
-![Power Supply Side View](/img/me41.jpg)  
-![Power Supply Side View](/img/me42.jpg)  
+![Power Supply Side View](public/img/me41.jpg)  
+![Power Supply Side View](public/img/me42.jpg)  
 
 <br />
 
@@ -150,7 +150,7 @@ The heart of our gyroscope and accelerometer test system is based on the **Ardui
 
 This board integrates the **Atmel ATmega328P** microcontroller, a key component for **I/O management** and **sensor data processing**.  
 
-![Img1](/img/me1.png)  
+![Img1](public/img/me1.png)  
 
 ---> **Microcontroller**
 
@@ -200,7 +200,7 @@ Its **5V operating voltage** and the availability of the **I2C interface** via d
 
 To provide instant and clear visual feedback on the movements detected by the MPU6050, we have integrated a 16x2 LCD display (16 characters on 2 lines) with an I2C interface module. This type of display combines a standard LCD display with an extension module based on the PCF8574 integrated circuit, greatly facilitating its interfacing with the microcontroller.
 
-![Img1](/img/me2.jpg)
+![Img1](public/img/me2.jpg)
 
 
 ---> **Key Features and Benefits of the I2C LCD Display** 
@@ -244,7 +244,7 @@ For a more in-depth understanding of **I2C LCDs**, including wiring and function
 
 #### MPU6050
 
-![Img1](/img/me3.jpg)
+![Img1](public/img/me3.jpg)
 
 As kids, the gyroscopes at the science fair never failed to amaze us because they moved in strange ways and even seemed to defy gravity. Their unique properties make them crucial in everything from small RC helicopters to the advanced navigation system on the space shuttle.
 
@@ -259,7 +259,7 @@ Le module au cœur de ce test est le MPU6050, un composant clé pour la percepti
 
 -----> **6-Axis Sensor in a Single Component**
 
-![Img1](/img/me4.png)
+![Img1](public/img/me4.png)
 
 The **MPU6050** integrates two essential sensors for **motion detection**:  
 
@@ -314,16 +314,16 @@ For more detailed technical information on the **MPU6050**, its **internal struc
 
 The diagram below provides a visual illustration of the component layout and electrical connections used for this test. It has been designed to provide a clear and intuitive representation of the assembly. All critical components, such as the Arduino Uno microcontroller and MPU6050 sensor, as well as the LCD (Liquid Crystal Display), are shown with their pins clearly identified (VCC, GND, SDA, SCL, etc.). We've taken care to respect the standard color conventions for wires (red for power, black for ground, and distinct colors for data signals) to improve readability and facilitate wiring verification.
 
-![Img1](/img/me5.png)
+![Img1](public/img/me5.png)
 
-![Img1](/img/me6.png)
+![Img1](public/img/me6.png)
 
 Based on this image, which shows the pinout of the UNO board, there are 20 digital pins, so if we divide the maximum current that the ATMEGA 328P can deliver by these 20 pins, we have an average current of 20mA per pin.
 
 
 #### Resistor sizing method for efficient LED ignition. 
 
-![Img1](/img/me7.png)
+![Img1](public/img/me7.png)
 
 ---> **Resistor Calculation**
 
@@ -350,7 +350,7 @@ Using the **E24 standard series**, the closest standard resistor value for **R_G
 
 **R<sub>GREEN</sub>= 220 Ohms**
 
-![Img1](/img/me8.png)
+![Img1](public/img/me8.png)
 
 </center>
 
@@ -358,9 +358,9 @@ The same applies to the calculation of all remaining resistor values. The follow
 
 <center>
 
-![Img1](/img/me9.png)
+![Img1](public/img/me9.png)
 
-![Img1](/img/me10.png)
+![Img1](public/img/me10.png)
 
 </center>
 
@@ -368,7 +368,7 @@ The same applies to the calculation of all remaining resistor values. The follow
 
 To complete the visual schematic and ensure maximum clarity, the table below exhaustively lists every wire connection between the pins of the MPU6050 sensor, the LCD display and those of the Arduino Uno microcontroller. This table is an invaluable aid for debugging and quickly checking the assembly, listing the pins of each component and their exact correspondence on the development board.
 
-![Img1](/img/me11.png)
+![Img1](public/img/me11.png)
 
 ### Code Developemnt
 
@@ -376,14 +376,14 @@ This section is dedicated to presenting and explaining the code developed to acq
 
 IDE version: 2.3.6
 
-![Img1](/img/me12.png)
+![Img1](public/img/me12.png)
 
 
 The Arduino IDE uses the integrated AVR-GCC compiler to translate C++ code (Arduino syntax) into machine language that can be understood by the ATmega328P microcontroller. This choice of environment was motivated by its simplicity, its perfect integration with the Arduino Uno board, and the wealth of libraries available, enabling rapid and efficient prototyping.
 
 Compiler Version : 7.3.0
 
-![Img1](/img/me13.png)
+![Img1](public/img/me13.png)
 
 
 #### Libraries Used  
@@ -453,11 +453,11 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 The code defines several custom character sets (called set1_char0 to set6_char5). Each 8-byte byte array represents a 5x8 pixel character pattern. 
 Here's an example showing the 8-byte byte array representing a heart
 
-![Img1](/img/me14.png)
+![Img1](public/img/me14.png)
 
 In our code, these characters are used to display symbols on the LCD screen that represent directions of movement (for example, an arrow to the left or right).
  
-![Img1](/img/me15.png)
+![Img1](public/img/me15.png)
 
 •	Each array (for example, set1_char0) contains 8 bytes. Each byte represents a line of 5 pixels. A 1 means the pixel is on, 0 means it's off. For example, 0b11111 means that the first 5 pixels of the line are on.
 
@@ -465,7 +465,7 @@ In our code, these characters are used to display symbols on the LCD screen that
 
 There are six functions, displaySet1() to displaySet6(), each responsible for displaying a specific set of custom characters on the LCD screen. Each of these functions takes a float value parameter.
 
-![Img1](/img/me16.png)  
+![Img1](public/img/me16.png)  
 
 --- > **Custom Character Functions**
 
@@ -508,7 +508,7 @@ Each **`displaySetX()`** function displays a **different visual pattern**, repre
 #### Variables and objects MPU6050
 <br />
 
-![Img1](/img/me17.png)  
+![Img1](public/img/me17.png)  
 
 ---> **MPU6050 Object**
 
